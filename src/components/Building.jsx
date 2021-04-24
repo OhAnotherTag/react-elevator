@@ -18,6 +18,7 @@ export function Building({ service }) {
           number={floor}
           key={`floor-${floor}`}
           service={service}
+          state={state}
           callElevator={() => callElevator(floor)} />
       ))}
     </section>
